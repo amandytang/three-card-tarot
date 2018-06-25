@@ -2,7 +2,7 @@
 
 > Make a tarot speed-reading at the click of a button. 🃏
 
-For when you don't have a deck handy. Check out the [live version](https://amandytang.github.io/three_card_tarot/)!
+For when you don't have a deck handy. Check out the [live version](https://amandytang.github.io/three-card-tarot/)!
 
 ![Three Card Tarot Screenshot](https://i.imgur.com/jfUko4Z.png)
 <br/>
