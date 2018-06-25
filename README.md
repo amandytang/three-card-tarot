@@ -4,7 +4,7 @@
 
 For when you don't have a deck handy. Check out the [live version](https://amandytang.github.io/three_card_tarot/)!
 
-![Three Card Tarot Screenshot](https://github.com/amandytang/three_card_tarot/blob/master/css/images/screenshot.png)
+![Three Card Tarot Screenshot](https://i.imgur.com/jfUko4Z.png)
 <br/>
 ## Technologies
 
