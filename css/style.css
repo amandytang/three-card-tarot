@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC:800');
+
+body, html {
+  margin:0px;
+  padding:0px;
+  background-color: #eaeff9;
+  height:auto;
+  width:100%;
+  overflow: auto;
+}
+
+.flip { transform: rotate(-180deg); }
+
+h3 {
+  text-align: center;
+  margin-top: 6.5%;
+  font-family: 'Alegreya SC', serif;
+  color: #37332f;
+  opacity: 0.9;
+}
+
+.fancy {
+  font-family: 'Alegreya SC', serif;
+  color: #37332f;
+  opacity: 0.9;
+}
+
+#images {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media only screen and (max-width:700px){
+  #images {
+    flex-direction: column !important;
+  }
+
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  min-height: 600px;
+  position: relative;
+  display: block;
+}
+
+.card {
+  width:175px;
+  height: 300px;
+  border-top: 13px solid #ded9c4;
+  border-bottom: 13px solid #ded9c4;
+  border-right: 12px solid #ded9c4;
+  border-left: 12px solid #ded9c4;
+  outline: 2px solid #909090;
+  box-shadow: 3px 4px 4px rgba(0,0,0,0.3);
+  margin: 0 auto;
+  display: block;
+}
+
+#button {
+  margin: 0 auto;
+  margin-top: 6%;
+  display: block;
+}
+
+button {
+  padding: 0px 10px 0px 10px;
+  background-color: #c1bdb9;
+  outline: 2px solid #909090;
+  color: #37332f;
+  font-size: 1.3em;
+  font-family: 'Alegreya SC', serif;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.card-image {
+  width:175px;
+  height: 300px;
+}
+
+#past-reading, #present-reading, #future-reading {
+  max-width:350px;
+  max-height:300px;
+  min-height: 240px;
+  width: 90%;
+  color: #272320;
+  line-height: 1.5em;
+  font-family: 'Source Serif Pro', serif;
+  text-align: justify;
+  margin: 0 auto;
+  margin-top: 20px !important;
+  padding-bottom: 30px;
+}
